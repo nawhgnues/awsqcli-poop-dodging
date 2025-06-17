@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="60" xmlns="http://www.w3.org/2000/svg">
+  <!-- 시작 버튼 (영어) -->
+  
+  <!-- 버튼 배경 -->
+  <rect x="0" y="0" width="200" height="60" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" rx="10" ry="10" />
+  
+  <!-- 버튼 텍스트 -->
+  <text x="70" y="38" font-family="Arial" font-size="24" font-weight="bold" fill="#ffffff">Start</text>
+  
+  <!-- 버튼 아이콘 (재생 아이콘) -->
+  <polygon points="30,20 30,40 45,30" fill="#ffffff" />
+</svg>

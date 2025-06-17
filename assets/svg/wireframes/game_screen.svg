@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 게임 화면 와이어프레임 -->
+  
+  <!-- 배경 -->
+  <rect x="0" y="0" width="800" height="600" fill="#f0f0f0" stroke="none" />
+  
+  <!-- 상단 UI 영역 -->
+  <rect x="10" y="10" width="780" height="40" fill="#e0e0e0" stroke="#999999" stroke-width="1" rx="5" ry="5" />
+  
+  <!-- 점수 표시 영역 -->
+  <rect x="20" y="15" width="150" height="30" fill="#ffffff" stroke="#999999" stroke-width="1" rx="3" ry="3" />
+  <text x="30" y="35" font-family="Arial" font-size="16" fill="#333333">점수: 0</text>
+  
+  <!-- 생명 표시 영역 -->
+  <rect x="630" y="15" width="150" height="30" fill="#ffffff" stroke="#999999" stroke-width="1" rx="3" ry="3" />
+  <text x="640" y="35" font-family="Arial" font-size="16" fill="#ff0000">생명: 3</text>
+  
+  <!-- 게임 영역 -->
+  <rect x="10" y="60" width="780" height="530" fill="#ffffff" stroke="#999999" stroke-width="1" />
+  
+  <!-- 플레이어 위치 표시 -->
+  <rect x="375" y="520" width="50" height="50" fill="#3366cc" stroke="#000000" stroke-width="1" />
+  
+  <!-- 장애물(똥) 예시 위치 -->
+  <!-- 작은 똥 -->
+  <g transform="translate(180, 80)">
+    <path d="M15,5 C17,5 19,6 19,8 
+             C22,8 24,10 24,13 
+             C26,13 27,16 27,18 
+             C27,23 22,27 15,27 
+             C8,27 3,23 3,18 
+             C3,16 4,13 6,13 
+             C6,10 8,8 11,8 
+             C11,6 13,5 15,5 Z" 
+          fill="#8B4513" stroke="#5D2906" stroke-width="1" />
+    <circle cx="11" cy="14" r="2" fill="#FFFFFF" />
+    <circle cx="19" cy="14" r="2" fill="#FFFFFF" />
+    <circle cx="11" cy="14" r="1" fill="#000000" />
+    <circle cx="19" cy="14" r="1" fill="#000000" />
+    <path d="M11,18 Q15,21 19,18" stroke="#000000" stroke-width="1" fill="none" />
+  </g>
+  
+  <!-- 중간 똥 -->
+  <g transform="translate(330, 180)">
+    <path d="M20,5 C23,5 26,7 26,10 
+             C30,10 33,13 33,17 
+             C36,17 38,21 38,24 
+             C38,32 30,37 20,37 
+             C10,37 2,32 2,24 
+             C2,21 4,17 7,17 
+             C7,13 10,10 14,10 
+             C14,7 17,5 20,5 Z" 
+          fill="#8B4513" stroke="#5D2906" stroke-width="1.5" />
+    <circle cx="14" cy="18" r="3" fill="#FFFFFF" />
+    <circle cx="26" cy="18" r="3" fill="#FFFFFF" />
+    <circle cx="14" cy="18" r="1.5" fill="#000000" />
+    <circle cx="26" cy="18" r="1.5" fill="#000000" />
+    <path d="M14,24 Q20,28 26,24" stroke="#000000" stroke-width="1.5" fill="none" />
+  </g>
+  
+  <!-- 작은 똥 -->
+  <g transform="translate(480, 130)">
+    <path d="M15,5 C17,5 19,6 19,8 
+             C22,8 24,10 24,13 
+             C26,13 27,16 27,18 
+             C27,23 22,27 15,27 
+             C8,27 3,23 3,18 
+             C3,16 4,13 6,13 
+             C6,10 8,8 11,8 
+             C11,6 13,5 15,5 Z" 
+          fill="#8B4513" stroke="#5D2906" stroke-width="1" />
+    <circle cx="11" cy="14" r="2" fill="#FFFFFF" />
+    <circle cx="19" cy="14" r="2" fill="#FFFFFF" />
+    <circle cx="11" cy="14" r="1" fill="#000000" />
+    <circle cx="19" cy="14" r="1" fill="#000000" />
+    <path d="M11,18 Q15,21 19,18" stroke="#000000" stroke-width="1" fill="none" />
+  </g>
+  
+  <!-- 중간 똥 -->
+  <g transform="translate(630, 230)">
+    <path d="M20,5 C23,5 26,7 26,10 
+             C30,10 33,13 33,17 
+             C36,17 38,21 38,24 
+             C38,32 30,37 20,37 
+             C10,37 2,32 2,24 
+             C2,21 4,17 7,17 
+             C7,13 10,10 14,10 
+             C14,7 17,5 20,5 Z" 
+          fill="#8B4513" stroke="#5D2906" stroke-width="1.5" />
+    <circle cx="14" cy="18" r="3" fill="#FFFFFF" />
+    <circle cx="26" cy="18" r="3" fill="#FFFFFF" />
+    <circle cx="14" cy="18" r="1.5" fill="#000000" />
+    <circle cx="26" cy="18" r="1.5" fill="#000000" />
+    <path d="M14,24 Q20,28 26,24" stroke="#000000" stroke-width="1.5" fill="none" />
+  </g>
+</svg>

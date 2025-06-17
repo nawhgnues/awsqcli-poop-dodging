@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 게임 오버 화면 와이어프레임 -->
+  
+  <!-- 배경 -->
+  <rect x="0" y="0" width="800" height="600" fill="#ffebee" stroke="none" />
+  
+  <!-- 게임 오버 메시지 -->
+  <rect x="200" y="100" width="400" height="100" fill="#ffffff" stroke="#999999" stroke-width="1" rx="10" ry="10" />
+  <text x="270" y="165" font-family="Arial" font-size="48" font-weight="bold" fill="#d32f2f">게임 오버!</text>
+  
+  <!-- 최종 점수 표시 -->
+  <rect x="250" y="220" width="300" height="60" fill="#ffffff" stroke="#999999" stroke-width="1" rx="5" ry="5" />
+  <text x="300" y="260" font-family="Arial" font-size="24" fill="#333333">최종 점수: 123</text>
+  
+  <!-- 재시작 버튼 -->
+  <rect x="300" y="320" width="200" height="60" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" rx="10" ry="10" />
+  <text x="350" y="360" font-family="Arial" font-size="24" fill="#ffffff">재시작</text>
+  
+  <!-- 메인 메뉴 버튼 -->
+  <rect x="300" y="400" width="200" height="60" fill="#2196F3" stroke="#0D47A1" stroke-width="2" rx="10" ry="10" />
+  <text x="335" y="440" font-family="Arial" font-size="24" fill="#ffffff">메인 메뉴</text>
+  
+  <!-- 장식용 똥 아이콘 (게임 오버 상태) -->
+  <!-- 왼쪽 위 -->
+  <g transform="translate(170, 120)" opacity="0.7">
+    <path d="M25,3 C28,3 31,5 31,8 
+             C35,8 38,11 38,15 
+             C42,15 45,19 45,23 
+             C47,23 48,27 48,30 
+             C48,40 38,47 25,47 
+             C12,47 2,40 2,30 
+             C2,27 3,23 5,23 
+             C5,19 8,15 12,15 
+             C12,11 15,8 19,8 
+             C19,5 22,3 25,3 Z" 
+          fill="#8B4513" stroke="#5D2906" stroke-width="2" />
+    <!-- 슬픈 눈 -->
+    <circle cx="18" cy="22" r="4" fill="#FFFFFF" />
+    <circle cx="32" cy="22" r="4" fill="#FFFFFF" />
+    <circle cx="18" cy="22" r="2" fill="#000000" />
+    <circle cx="32" cy="22" r="2" fill="#000000" />
+    <!-- 슬픈 입 -->
+    <path d="M18,38 Q25,32 32,38" stroke="#000000" stroke-width="2" fill="none" />
+  </g>
+  
+  <!-- 오른쪽 위 -->
+  <g transform="translate(570, 120)" opacity="0.7">
+    <path d="M25,3 C28,3 31,5 31,8 
+             C35,8 38,11 38,15 
+             C42,15 45,19 45,23 
+             C47,23 48,27 48,30 
+             C48,40 38,47 25,47 
+             C12,47 2,40 2,30 
+             C2,27 3,23 5,23 
+             C5,19 8,15 12,15 
+             C12,11 15,8 19,8 
+             C19,5 22,3 25,3 Z" 
+          fill="#8B4513" stroke="#5D2906" stroke-width="2" />
+    <!-- 슬픈 눈 -->
+    <circle cx="18" cy="22" r="4" fill="#FFFFFF" />
+    <circle cx="32" cy="22" r="4" fill="#FFFFFF" />
+    <circle cx="18" cy="22" r="2" fill="#000000" />
+    <circle cx="32" cy="22" r="2" fill="#000000" />
+    <!-- 슬픈 입 -->
+    <path d="M18,38 Q25,32 32,38" stroke="#000000" stroke-width="2" fill="none" />
+  </g>
+  
+  <!-- 왼쪽 아래 -->
+  <g transform="translate(120, 420)" opacity="0.7">
+    <path d="M25,3 C28,3 31,5 31,8 
+             C35,8 38,11 38,15 
+             C42,15 45,19 45,23 
+             C47,23 48,27 48,30 
+             C48,40 38,47 25,47 
+             C12,47 2,40 2,30 
+             C2,27 3,23 5,23 
+             C5,19 8,15 12,15 
+             C12,11 15,8 19,8 
+             C19,5 22,3 25,3 Z" 
+          fill="#8B4513" stroke="#5D2906" stroke-width="2" />
+    <!-- 슬픈 눈 -->
+    <circle cx="18" cy="22" r="4" fill="#FFFFFF" />
+    <circle cx="32" cy="22" r="4" fill="#FFFFFF" />
+    <circle cx="18" cy="22" r="2" fill="#000000" />
+    <circle cx="32" cy="22" r="2" fill="#000000" />
+    <!-- 슬픈 입 -->
+    <path d="M18,38 Q25,32 32,38" stroke="#000000" stroke-width="2" fill="none" />
+  </g>
+  
+  <!-- 오른쪽 아래 -->
+  <g transform="translate(620, 420)" opacity="0.7">
+    <path d="M25,3 C28,3 31,5 31,8 
+             C35,8 38,11 38,15 
+             C42,15 45,19 45,23 
+             C47,23 48,27 48,30 
+             C48,40 38,47 25,47 
+             C12,47 2,40 2,30 
+             C2,27 3,23 5,23 
+             C5,19 8,15 12,15 
+             C12,11 15,8 19,8 
+             C19,5 22,3 25,3 Z" 
+          fill="#8B4513" stroke="#5D2906" stroke-width="2" />
+    <!-- 슬픈 눈 -->
+    <circle cx="18" cy="22" r="4" fill="#FFFFFF" />
+    <circle cx="32" cy="22" r="4" fill="#FFFFFF" />
+    <circle cx="18" cy="22" r="2" fill="#000000" />
+    <circle cx="32" cy="22" r="2" fill="#000000" />
+    <!-- 슬픈 입 -->
+    <path d="M18,38 Q25,32 32,38" stroke="#000000" stroke-width="2" fill="none" />
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 깔끔한 흰색 배경 -->
+  
+  <!-- 기본 배경 -->
+  <rect x="0" y="0" width="800" height="600" fill="#FFFFFF" />
+  
+  <!-- 미세한 그라데이션 효과 (상단에서 하단으로) -->
+  <rect x="0" y="0" width="800" height="600" fill="url(#grad1)" />
+  
+  <!-- 그라데이션 정의 -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8F8F8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 미세한 격자 패턴 (매우 연한 회색) -->
+  <pattern id="smallGrid" width="10" height="10" patternUnits="userSpaceOnUse">
+    <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#F0F0F0" stroke-width="0.5" />
+  </pattern>
+  
+  <!-- 격자 패턴 적용 -->
+  <rect x="0" y="0" width="800" height="600" fill="url(#smallGrid)" />
+</svg>
