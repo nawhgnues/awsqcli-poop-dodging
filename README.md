@@ -68,3 +68,7 @@ poop_dodge/
 - 다양한 배경과 난이도 선택
 - 최고 점수 기록 저장
 - 다양한 플레이어 캐릭터 선택 옵션
+
+## 플레이 짤
+
+![aws-q-cli-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cf08ea1e-e265-4f80-a210-7b58728a55c5)
